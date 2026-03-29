@@ -1,0 +1,53 @@
+body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;    /* center horizontally */
+            align-items: center;        /* center vertically (optional) */
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        /* Main container – holds all content */
+        .container {
+            text-align: center;          /* centers inline elements like text, inputs, button */
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            width: 90%;
+            max-width: 400px;
+        }
+
+        /* Make input fields block-level + margin for spacing */
+        .container input {
+            display: block;
+            width: 100%;
+            margin: 1rem auto;
+            padding: 0.75rem;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+
+        /* Style the button */
+        .container button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .container button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Optional: heading style */
+        h1 {
+            margin-bottom: 1.5rem;
+            color: #333;
+        }
